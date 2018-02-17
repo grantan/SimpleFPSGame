@@ -38,7 +38,8 @@ public class FirstPersonController : MonoBehaviour {
 
 		CharacterController cc = GetComponent<CharacterController>();
 
-		cc.SimpleMove(speed);
+		//cc.SimpleMove(speed);
+		cc.Move(speed * Time.deltaTime);
 		
 	}
 }
