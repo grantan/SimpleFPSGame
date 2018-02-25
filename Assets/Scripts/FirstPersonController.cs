@@ -10,7 +10,7 @@ public class FirstPersonController : MonoBehaviour {
 
 	public float upDownRange = 60.0f;
 
-	public float jumpSpeed = 20.0f;
+	public float jumpSpeed = 5.0f;
 
 	float verticalRotation = 0;
 	float verticalVelocity = 0;
